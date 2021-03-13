@@ -44,6 +44,9 @@ table {
 /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
 
+html, body {
+	height: 100%;
+}
 .container{
 	line-height: 1.1em;
 	font-family: Arial, Helvetica, sans-serif;
@@ -90,21 +93,32 @@ table {
 	margin-top: 5%;
 }
 .form-1 label,input,select{
-	margin-top: 2%;
+	margin-top: 5px;
 }
 .form-1 input{
 	margin-right: 5%;
 }
 .form-2 {
-	width: 50%;
+	width: 900px;
+	min-height: 280px;
 	margin: auto;
 	border: 2px black solid;
 }
 .form-2 h1 {
 	font-size: 2em;
 }
-.form-2 input {
-
+.form-2 label {
+	margin-left: 5%;
+}
+.form-2 input[type="text"], input[type="email"] {
+	width: 100%;
+	margin-left: 5%;
+}
+.form-group {
+	width: 600px;
+}
+.mt-5 {
+	margin-top: 1rem;
 }
 .nav-1{
 	padding-top: 1%;
@@ -141,12 +155,22 @@ table {
 	border:blue 2px solid;
 }
 .button-2 {
-	padding-left: 2%;
-	padding-right: 2%;
+	padding-left: 6px;
+	padding-right: 6px;
 	padding-bottom: 2px;
-	background-color: white;
+	padding-top: 2px;
+	margin-right: 5px;
+	margin-top: -4px;
+	background-color: lightgrey;
 	color:black;
 	border:black 1px solid;
+	text-decoration: none;
+
+}
+.text-right {
+	width: 100%;
+	text-align: right;
+	margin-bottom: 5px;
 }
 .float-l{
 	float: left;
@@ -163,15 +187,6 @@ table {
 }
 .pad-b5{
 	padding-bottom: 5%;
-}
-.bump-up {
-	margin-top: -23px;
-}
-.bump-left {
-	margin-right: 2px;
-}
-.push-left-med {
-	margin-right: 60px;
 }
 .img-background{
 	width: 100%;
