@@ -19,3 +19,6 @@ function realtimeClock () {
 		var t = setTimeout(realtimeClock, 500); 
 
 }
+function myFunction() {
+	alert("functionality needed");
+  }
